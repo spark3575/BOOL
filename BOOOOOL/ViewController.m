@@ -16,7 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    BOOL amICool = YES;
+    BOOL isTheOtherPersonCool = NO;
+    
+    if (amICool) {
+        NSLog(@"Whip out the cool Ray Bans and hit the beach!");
+    } else {
+        NSLog(@"We should never get here!");
+    }
+    
+    NSString *name = nil;
+    
+    if (name) {
+        NSLog(@"Name: %@", name);
+    } else if (100 == 100) {
+        
+    }
+    
+    if (!name) {
+        name = @"Sandra";
+    }
+   
 }
 
 
